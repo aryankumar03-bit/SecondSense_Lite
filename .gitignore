@@ -1,0 +1,16 @@
+# Dependencies & build output
+node_modules/
+dist/
+.vite/
+
+# Environment & editor files
+.env
+.env.local
+.env.*.local
+*.local
+.DS_Store
+
+# Unrelated workspace artifacts
+__pycache__/
+output_screens/
+test_img/
