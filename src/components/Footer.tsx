@@ -12,7 +12,7 @@ export function Footer() {
                 <Eye className="h-5 w-5" aria-hidden="true" />
               </span>
               <div>
-                <p className="text-base font-semibold text-white">SecondSense</p>
+                <p className="text-base font-semibold text-white">EchoField</p>
                 <p className="text-xs text-teal-300">An Extra Sense for Independent Mobility.</p>
               </div>
             </div>
@@ -114,7 +114,7 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col items-start justify-between gap-3 text-xs text-slate-500 sm:flex-row sm:items-center">
           <p>
-            SecondSense · EPICS Academic Prototype. Conceptual mobile features are under active
+            EchoField · EPICS Academic Prototype. Conceptual mobile features are under active
             development.
           </p>
           <p className="font-mono">Built with React, TypeScript, TensorFlow.js &amp; Web APIs</p>

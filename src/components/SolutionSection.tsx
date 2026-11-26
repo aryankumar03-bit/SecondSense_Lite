@@ -39,7 +39,7 @@ export function SolutionSection() {
             id="solution-heading"
             className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl"
           >
-            Introducing SecondSense.
+            Introducing EchoField.
           </h2>
           <p className="mt-4 text-base leading-relaxed text-slate-300">
             Designed around five interconnected assistive capabilities that convert camera input into

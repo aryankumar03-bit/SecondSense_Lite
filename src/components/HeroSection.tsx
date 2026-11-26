@@ -38,7 +38,7 @@ export function HeroSection() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg">
-            SecondSense is an AI-assisted accessibility concept that transforms a smartphone into an
+            EchoField is an AI-assisted accessibility concept that transforms a smartphone into an
             intelligent environmental awareness companion for people who are blind or visually
             impaired.
           </p>

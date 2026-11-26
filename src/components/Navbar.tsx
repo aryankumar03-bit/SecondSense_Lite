@@ -17,7 +17,7 @@ export function Navbar() {
           </span>
           <div className="flex flex-col">
             <span className="text-sm font-semibold tracking-tight text-white sm:text-base">
-              SecondSense
+              EchoField
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-cyan-300/80">
               EPICS Prototype

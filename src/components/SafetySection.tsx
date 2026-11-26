@@ -1,7 +1,7 @@
 import { ShieldAlert, AlertOctagon } from 'lucide-react';
 
 const LIMITATIONS = [
-  'SecondSense is designed to complement a white cane, not replace it.',
+  'EchoField is designed to complement a white cane, not replace it.',
   'The system cannot guarantee the detection of every obstacle.',
   'Camera performance may be affected by lighting, occlusion, and camera positioning.',
   'Depth estimation may be inaccurate and does not measure exact physical distance.',
@@ -49,7 +49,7 @@ export function SafetySection() {
                 Critical Safety Boundary
               </p>
               <p className="mt-2 text-base font-medium leading-relaxed text-amber-50 sm:text-lg">
-                SecondSense aims to provide additional environmental awareness. It is not a certified
+                EchoField aims to provide additional environmental awareness. It is not a certified
                 navigation device and must not be relied upon as the sole means of mobility or
                 hazard avoidance.
               </p>

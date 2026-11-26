@@ -55,7 +55,7 @@ const WHITE_CANE_TRAITS = [
   'No battery requirement.',
 ];
 
-const SECONDSENSE_TRAITS = [
+const ECHOFIELD_TRAITS = [
   'Camera-based environmental awareness.',
   'Semantic object identification.',
   'Potential awareness of head-height obstacles.',
@@ -109,7 +109,7 @@ export function ProblemSection() {
           })}
         </div>
 
-        {/* White Cane + SecondSense Complementary Comparison */}
+        {/* White Cane + EchoField Complementary Comparison */}
         <div className="mt-14 glass-panel rounded-3xl p-6 sm:p-8">
           <div className="max-w-3xl">
             <span className="font-mono text-xs uppercase tracking-wider text-teal-300">
@@ -120,7 +120,7 @@ export function ProblemSection() {
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-slate-300 sm:text-base">
               A white cane remains an essential mobility aid. However, it primarily provides tactile
-              information about the ground-level environment within its reach. SecondSense explores
+              information about the ground-level environment within its reach. EchoField explores
               how smartphone-based environmental awareness could complement this information.
             </p>
           </div>
@@ -158,14 +158,14 @@ export function ProblemSection() {
             <div className="rounded-2xl border border-cyan-400/25 bg-cyan-500/[0.04] p-6 lg:col-span-5">
               <div className="flex items-center justify-between">
                 <h4 className="font-mono text-sm font-semibold uppercase tracking-wider text-cyan-300">
-                  SecondSense
+                  EchoField
                 </h4>
                 <span className="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-2.5 py-0.5 text-[11px] text-cyan-200">
                   Proposed Companion
                 </span>
               </div>
               <ul className="mt-5 space-y-3">
-                {SECONDSENSE_TRAITS.map((trait) => (
+                {ECHOFIELD_TRAITS.map((trait) => (
                   <li key={trait} className="flex items-start gap-3 text-sm text-slate-200">
                     <CheckCircle2
                       className="mt-0.5 h-4 w-4 shrink-0 text-cyan-400"

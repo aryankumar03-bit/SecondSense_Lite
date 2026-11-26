@@ -704,7 +704,7 @@ export function DemoSection() {
         <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
           <div className="max-w-3xl">
             <p className="font-mono text-xs uppercase tracking-widest text-cyan-300">
-              04 · Interactive SecondSense Demonstration
+              04 · Interactive EchoField Demonstration
             </p>
             <h2
               id="demo-heading"
